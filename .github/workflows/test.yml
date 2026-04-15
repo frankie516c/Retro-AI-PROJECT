@@ -19,5 +19,5 @@ jobs:
       #   run: node -v
 
       - name: npm install
+        working-directory: ./frontend
         run: npm i
-        
